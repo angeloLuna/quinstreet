@@ -14,7 +14,7 @@ export default function Advertorial() {
           EVEN MORE SAVINGS
         </h2>
 
-        <div className="space-y-2 bg-white w-[400px] pt-[11px] px-[21px] pb-[46px]">
+        <div className="space-y-2 bg-white md:w-[400px] pt-[11px] px-[21px] pb-[46px]">
           <p className="text-[#A0BC57] text-sm font-medium tracking-wide">ADVERTORIAL</p>
           <h3 className="text-[#545253] text-[20px] font-medium leading-snug tracking-tight">
             Tricks Homeowners Use to Eliminate Bills

@@ -1,5 +1,4 @@
 import Form from '@/app/components/Home/Form'
-import Image from 'next/image';
 import Advertorial from '@/app/components/Home/Advertorial'
 
 export default function Home() {
@@ -13,11 +12,3 @@ export default function Home() {
     </div>
   );
 }
-
-{/* <h1 className="font-light text-[16px] text-[#747375]">Phone Number</h1>
-<h1 className="font-normal text-[16px] text-[#747375]">Phone Number</h1>
-<h1 className="font-medium text-[16px] text-[#747375]">Phone Number</h1>
-<h1 className="font-semibold text-[16px] text-[#747375]">Phone Number</h1>
-<h1 className="font-bold text-[16px] text-[#747375]">Phone Number</h1>
-<h1>Text</h1> */}
-//  w-screen

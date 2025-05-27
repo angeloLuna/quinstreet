@@ -23,15 +23,18 @@ export default function Form() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    setSubmited(true)
     console.log('Submit')
-    // try {
-    //   const res = await axios.post('https://example.com/api/form', form);
-    //   console.log('Send success', res.data);
-
-    // } catch (error) {
-    //   console.error('Error', error);
-    // }
+    // Just in case of network, or another error this is a hardcode validation
+    setSubmited(true)
+    // 
+    
+    try {
+      const res = await axios.post('https://formsws-hilstaging-com-0adj9wt8gzyq.runscope.net/solar', form);
+      console.log('Send success', res.data);
+    } catch (error) {
+      console.error('Error', error);
+    }
+    setSubmited(true)
   }
 
   console.log(submited)
